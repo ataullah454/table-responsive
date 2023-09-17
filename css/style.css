@@ -1,0 +1,71 @@
+/* Common Css Start */
+:root{
+    --primary-color:#02918c;
+    --btn-color: #cfc91d;
+    --light-color:#ffffff;
+    --dark-color:#7e8287;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration:none;
+}
+body,textarea{
+    font-family:'Open Sans', sans-serif;
+}
+/* Common Css end */
+
+div{
+    font-size: 20px;
+}
+/* responsive  */
+
+@media (max-width: 575.98px){
+        .container{
+        max-width: 340px;
+    }
+    .col-2 {
+        flex: 0 0 auto;
+        width: 40%;
+    }
+    .col {
+        flex: 50%;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (max-width: 767.98px){
+    .container{
+    max-width: 540px;
+}
+}
+@media (max-width: 991.98px){
+    .container{
+    max-width: 720px;
+}
+}
+@media (max-width: 1199.98px){
+    .container{
+        max-width: 960px;
+    }
+    
+}
+@media (max-width: 1399.98px){
+    .container{
+        max-width: 1140px;
+    }
+}
